@@ -1,0 +1,8 @@
+{
+  "name": "RFM12B",
+  "keywords": "rfm12b, rfm69cw",
+  "description": "Use an RFM12B Radio",
+  "exclude": "doc",
+  "frameworks": "arduino",
+  "platforms": "atmelavr"
+}

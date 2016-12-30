@@ -38,3 +38,17 @@ variations which can be accounted for by shifting the frequency center and the f
        0xAA 0xAA 0xAA 0x2D 0xD4 0x?? 0x?? 0x?? 0x5A
    Where the ?? bytes are the code to YOUR boiler, on and off use transmit different codes
 - Edit the bytes below to your appropriate settings.
+
+You should expect to be able to get a signal that looks something like this:
+
+![signal pattern](https://github.com/klattimer/salus-rt500rf/raw/master/sample/salus-on-off.png)
+
+#### Sample data
+
+##### On
+A    A    A    A    A    A    2    D    D    4    0    0    0    1    0    1    5    A
+1010 1010 1010 1010 1010 1010 0010 1101 1101 0100 0000 0000 0000 0001 0000 0001 0101 1010
+
+##### Off
+A    A    A    A    A    A    2    D    D    4    0    0    0    2    0    2    5    A
+1010 1010 1010 1010 1010 1010 0010 1101 1101 0100 0000 0000 0000 0010 0000 0010 0101 1010

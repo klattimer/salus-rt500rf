@@ -5,6 +5,8 @@ Salus RT500RF boiler controller using an 868Mhz RFM12B from HopeRF. The RFM12B i
 is still an extremely useful piece of hardware. The replacement the RFM69CW should be easy enough to replace the RFM12B
 with in the hardware. Using a little of Jeelib's compatibility library.
 
+[Salus RT500RF on Ebay](http://rover.ebay.com/rover/1/710-53481-19255-0/1?icep_ff3=2&pub=5575122294&toolid=10001&campid=5337675871&customid=&icep_item=221751757000&ipn=psmain&icep_vectorid=229508&kwid=902099&mtid=824&kw=lg)
+
 I based this project on top of this one
 
 http://the.cyclingengineer.co.uk/2013/11/23/home-automation-integrating-salus-rt500-rf-in-openhab-using-a-jeelink/
